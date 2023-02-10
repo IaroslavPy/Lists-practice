@@ -35,10 +35,8 @@ public class Main {
 //       }
 //   }
     private static void checkData(List<String> dataList) {
-        String checkingProduct = "Met";
-        boolean hasProduct;
-        hasProduct = dataList.contains(checkingProduct);
-        if (hasProduct) {
+        String checkingProduct = "Meat";
+        if (dataList.contains(checkingProduct)) {
             System.out.println("\n" + checkingProduct + " found in the list!");
         } else {
             System.out.println("\n" + checkingProduct + " not found in the list!");
