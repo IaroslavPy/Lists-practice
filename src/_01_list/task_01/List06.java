@@ -1,29 +1,22 @@
-package _01_list.task_06;
+package _01_list.task_01;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class List06A {
-
-    static List<String> products;
-    static String product;
+public class List06 {
 
     public static void main(String[] args) {
-        getData();
-        product = "Молоко";
-        searchProduct(product);
-    }
 
-    private static void getData() {
-        products = new ArrayList<>();
+        List<String> products = new ArrayList<>();
+
         products.add("Апельсин");
         products.add("Яблокр");
         products.add("Сыр");
         products.add("Молоко");
         products.add("Орехи");
-    }
 
-    private static void searchProduct(String product) {
+        String product = "Молоко";
+
         if (products.contains(product)) {
             System.out.printf("В перечне есть товар: %s", product);
         } else {

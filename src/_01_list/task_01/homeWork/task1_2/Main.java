@@ -1,4 +1,4 @@
-package _01_list.task_06.homeWork.task1_2;
+package _01_list.task_01.homeWork.task1_2;
 
 import java.util.LinkedList;
 import java.util.List;
